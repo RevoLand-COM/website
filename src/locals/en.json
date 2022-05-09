@@ -1,0 +1,90 @@
+{
+  "common": {
+    "selectLanguage": "EN",
+    "message": "Coming soon!"
+  },
+  "header": {
+    "nav1": "HOMEPAGE",
+    "nav2": "HOW TO EARN",
+    "nav3": "CHAIN X GAME",
+    "nav4": "DOC",
+    "nav5": "AUDIT",
+    "nav6": "WHITEPAPER",
+    "nav7": "FAQ",
+    "nav8": "Mystery Box Tutorial",
+    "navBtn": "MARKETPLACE"
+  },
+  "sreen1":{
+    "title":"COME TO SNAP UP YOUR NFT!",
+    "title_sub":"MYSTERY BOX PRESALE",
+    "desc":"Revoland is an e-sport game based on blockchain technology. Challenge yourself with various game modes: MOBA & Battle Royale, coming with monthly updates and attractive rewards.",
+    "btn1":"Join Community",
+    "btn2":"Join Whitelist"
+  },
+  "sreen3":{
+    "title":"REVOLAND NFT ASSETS",
+    "desc":"Earn free tokens by playing the game and trade NFT heroes in the Marketplace to make money"
+  },
+  "sreen4":{
+    "title":"HOW TO EARN",
+    "step1":{ "title":"Obtain Heroes","desc":"You got three heroes for free in the game or you can purchase with $REVO via NFT marketplace" },
+    "step2":{ "title":"Passive Income","desc":"Natural appreciation of the hero NFT you purchased" },
+    "step3":{ "title":"Ingame Rewards","desc":"Rewards obtained by participating in game battles and winning" },
+    "step4":{ "title":"$LAND","desc":"As an in-game reward token, which can be widely circulated and applied in the game" },
+    "step5":{ "title":"Exchange","desc":"Can be traded on multiple exchanges" },
+    "step6":{ "title":"Real Money","desc":"Finally convert token income into real money" }
+  },
+  "sreen5":{
+    "title":"Don’t miss the latest Game Asset Offering updates in Revoland Marketplace.",
+    "desc":"Join our social media communities to stay tuned for the latest project news and announces!",
+    "btn1":"Join Telegram",
+    "btn2":"Join Discord",
+    "list1":{"title":"Combat Modes","desc":"There are six game modes in Revoland, four team battles and two single-player battle modes."},
+    "list2":{"title":"Battle Rewards","desc":"Fight in different game modes for the ultimate victory and earn $LAND rewards."},
+    "list3":{"title":"NFT Marketplace","desc":"Every hero NFT in Revoland can be traded in the NFT Marketplace."},
+    "list4":{"title":"Game Construction","desc":"Spread game contents and participate in game ecological construction to earn considerable profits."}
+  },
+  "sreen6":{
+    "title":"Published by Chain X Game",
+    "desc":"At Chain X Game, we create Metaverse Worlds for everyone. We are dedicated to enriching the lives of our players by developing high-quality games that resonate with all kinds of personalities, bring people together, and allow everyone to learn, earn and grow while having fun.",
+    "btn":"Contact us"
+  },
+  "sreen7":{
+    "tab1":"Game Guilds",
+    "tab2":"Partners"
+  },
+  "sreen8":{
+    "label1":"What is Revoland",
+    "res1":"Revoland is a blockchain-based multiplayer online battle arena (MOBA) game designed to combine players' individual techniques and teamwork to challenge themselves in multiple game modes. Different from the current chain games on the market, Revoland is a product that truly integrates all the advantages of traditional mobile games, with a high degree of completion and entertainment, creating a real 'social gaming experience' and profit model.",
+    "label2":"How to play Revoland game?",
+    "res2":"Players can gather friends to form teams in the Revoland game, fight with others, and get token rewards for participating in game battles. There are six types of gameplay: Sacred Fruit Battle 3v3 team play, Toys R Us 3v3 team play, Ace duel 10 people fight to survive, Red Dead Redemption 6-player bounty fight, Running Raiders 3v3 team battle, and the Stronghold Attack & Defense 3v3 team play.",
+    "label3":"How much do i need to invest to participate in Revoland?",
+    "res3":"Players do not need to invest any money to play Revoland games, the only investment is time and effort. When players log in to Revoland for the first time, they will receive 3 heroes for free, players can use these heroes to participate in battles and earn $LAND rewards. To get more heroes, you need to buy blind boxes from the NFT marketplace  or buy and unlock them from the hero market. The only difference is that free heroes are not eligible to be forged and sold on the NFT marketplace, however premium heroes are.",
+    "label4":"What types of heroes are there in Revoland?",
+    "res4":"(1) Fighter: always fight in the front row, with high melee damage and HP, it is a nightmare for crispy heroes(2) Flanker: good at inadvertently delivering fatal blows to opponents in battle, they cooperate with teammates in battle, destroy targets, and retreat quickly without being discovered.(3) Gunner: the main damage carrier, is responsible for maintaining the number of DPS in battle(4) Support: a core role that has good output ability and can provide additional support for the team",
+    "res4-1":"1. Fighter: always fight in the front row, with high melee damage and HP, it is a nightmare for crispy heroes.",
+    "res4-2":"2. Flanker: good at inadvertently delivering fatal blows to opponents in battle, they cooperate with teammates in battle, destroy targets, and retreat quickly without being discovered.",
+    "res4-3":"3. Gunner: the main damage carrier, is responsible for maintaining the number of DPS in battle.",
+    "res4-4":"4. Support: a core role that has good output ability and can provide additional support for the team.",
+    "label5":"What are the advantages of Revoland?",
+    "res5":"1. The game development team Chain X Game has rich experience and strong R&D strength to ensure the fineness of the game;2. The game system has been upgraded, and the heroes in the game are more diverse, giving players more options and improving the entertainment of the game;3. Trinity, connecting crypto users, gamers and streamers to create a sustainable game ecosystem;4. The dual-token economic model enables users to enter the game for free, earn rewards, upgrade in the game, and lower the game entry barrier;5. There are various ways to earn rewards in the game. The system itself sets a feedback mode to create a diversified game profit model for players.",
+    "res5-1":"1. The game development team Chain X Game has rich experience and strong R&D strength to ensure the fineness of the game;",
+    "res5-2":"2. The game system has been upgraded, and the heroes in the game are more diverse, giving players more options and improving the entertainment of the game;",
+    "res5-3":"3. Trinity, connecting crypto users, gamers and streamers to create a sustainable game ecosystem;",
+    "res5-4":"4. The dual-token economic model enables users to enter the game for free, earn rewards, upgrade in the game, and lower the game entry barrier;",
+    "res5-5":"5. There are various ways to earn rewards in the game. The system itself sets a feedback mode to create a diversified game profit model for players.",
+    "btn": "ALL FAQ"
+  },
+  "footer":{ 
+    "develop": "Published by",
+    "dev_team1": "London",
+    "dev_team1_desc": "Main Office",
+    "dev_team2": "Dubai",
+    "dev_team2_desc": "Blockchain Tech Team",
+    "dev_team3": "Seoul",
+    "dev_team3_desc": "Game Development Team",
+    "nav1": "Terms of Use",
+    "nav2": "Privacy Policy",
+    "nav3": "Whitepaper"
+  }
+}

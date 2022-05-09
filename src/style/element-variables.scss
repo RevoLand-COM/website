@@ -1,0 +1,30 @@
+// 主题全部颜色文件
+// node_modules/element-ui/packages/theme-chalk/src/common/var.scss
+
+/* 改变主题色变量 */
+$--color-primary: teal;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+
+@font-face {
+  font-family: 'FangZheng';
+  src: url("../assets/font/FZCuYuan.TTF") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSong';
+  src: url("../assets/font/OpenSoon.TTF") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family:"FangZheng", "PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}

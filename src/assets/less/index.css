@@ -1,0 +1,59 @@
+
+@font-face { font-family: D-DIN; src:url('../font/D-DIN.ttf')}
+*{font-family: D-DIN;box-sizing: border-box;}
+
+/* font-family:"FangZheng", "PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif; */
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; } 
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; } 
+h1, h2, h3, h4, h5, h6{ font-size:100%; } 
+address, cite, dfn, em, var { font-style:normal; } 
+code, kbd, pre, samp { font-family: Poppins } 
+small{ font-size:12px; } 
+ul, ol { list-style:none; } 
+a { text-decoration:none; } 
+a:hover { text-decoration:underline; } 
+sup { vertical-align:text-top; } 
+sub{ vertical-align:text-bottom; } 
+legend { color:#000; } 
+fieldset, img { border:0; } 
+button, input, select, textarea { font-size:100%;border: unset; color: #fff; } 
+table { border-collapse:collapse; border-spacing:0; } 
+
+button,.btn-a{ padding:0 10px; min-width: 100px;white-space:nowrap; display: flex; justify-content: center; align-items: center;border-radius: 6px;color: #fff; }
+.btn-a:hover{text-decoration:none;} 
+button>span,.btn-a>span{ flex: 1; text-align: center;}
+
+@media screen and (max-width: 420px) { 
+    button,.btn-a{ min-width: 1rem; padding: 0 0.1rem;border-radius: 0.02rem;}
+    
+    .el-message { 
+        width: 2rem;
+        height: 0.5rem;
+        font-size: 0.2rem;
+        min-width: unset;
+    }
+}
+
+body{background-color: #121212;}
+.text-one{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.text-more{word-break: break-all;text-overflow: ellipsis;overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;}
+#app.pc {min-width: 1240px;}
+.pc_safe{ min-width: 1240px; max-width: 1240px; width: 100%; margin: 0 auto; height: 1080px; padding-top: 80px;}
+.app_safe{ padding: 0.1rem; padding-top:0.58rem;}
+
+.el-message { 
+    background: rgb(25, 25, 26,0.8);
+    border: none;
+    top:50% !important;
+}
+.el-message--info .el-message__content{ 
+    color: #f7f8fa;
+}
+.el-message .el-icon-info{ 
+    color: #f7f8fa;
+}
+
+/* -webkit-line-clamp: 2; */
+
+

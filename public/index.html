@@ -1,0 +1,68 @@
+<!--
+ * @Author: 叹息桥
+ * @Description: 
+ * @Date: 2022-04-11 10:43:17
+ * @LastEditTime: 2022-04-21 21:36:19
+ * @LastEditors: Please set LastEditors
+-->
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Revoland is an e-sport game based on Blockchain technology. Challenge yourself with various game modes: MOBA & Battle Royale, coming with monthly updates and attractive rewards. ">
+    <meta name="keywords" content="Chain Game，Marketplace，Metaverse，Revoland，NFT， Chain X game，Revoland Official，gamefi, blockchain game, MOBA,  P2E, Play2Earn, 1V1, 3V3, BSC, Abey, NFT, Mystery Box, Hero, Heroes">
+
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>Revoland - A new world of Skill to Earn</title>
+    <!-- <title><%= htmlWebpackPlugin.options.title %></title> -->
+
+    <script>
+        ; (function (doc, win) {
+          var isMobile = /(iPhone|iPad|iPod|iOS|Android)/i.test(
+            navigator.userAgent,
+          )
+          if (isMobile) {
+            /**
+             * 以下这段代码是用于根据移动端设备的屏幕分辨率计算出合适的根元素的大小
+             * 当设备宽度为375(iPhone6)时，根元素font-size=100px; 依次增大；
+             * 限制当为设备宽度大于768(iPad)之后，font-size不再继续增大
+             * scale 为meta viewport中的缩放大小
+             */
+            var docEl = win.document.documentElement
+            var resizeEvt =
+              'orientationchange' in window ? 'orientationchange' : 'resize'
+            var timer = null
+            var refreshRem = function () {
+              var clientWidth =
+                win.innerWidth ||
+                doc.documentElement.clientWidth ||
+                doc.body.clientWidth
+              if (!clientWidth) return
+              var fz
+              var width = clientWidth
+              fz = (100 * width) / 375
+              docEl.style.fontSize = fz + 'px'
+            }
+      
+            if (!doc.addEventListener) return
+            win.addEventListener(resizeEvt, refreshRem, false)
+            doc.addEventListener('DOMContentLoaded', refreshRem, false)
+            refreshRem()
+          } else {
+            //console.log('不是移动端设备！！ 不进行适配！！')
+          }
+        })(document, window)
+      </script>
+    
+</head>
+<body>
+<noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+</noscript>
+<div id="app"></div>
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=f5100491-d62a-4e93-9290-1037c42bd719"> </script>
+</body>
+</html>
